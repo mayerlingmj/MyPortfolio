@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git push heroku main && npm run build"
+    "deploy": "git push heroku main && cd frontend && npm run build"
   },
   "keywords": [],
   "author": "",
