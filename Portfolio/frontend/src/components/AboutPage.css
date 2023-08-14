@@ -1,0 +1,49 @@
+.page {
+  padding: 2rem;
+  background-color: #FFC0CB;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 80%;
+  object-fit: cover;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 36px;
+  color: #FF69B4;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 18px;
+  color: #FF1493;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #FF69B4;
+  color: #FFF1E6;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.resume-button:hover {
+  background-color: #FF1493;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,181 @@
+.project-details {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #CB997E;
+  font-family: 'Jost', sans-serif;
+  padding-top: 100px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.proj-name {
+  color: white;
+  font-size: 50px;
+  line-height: 100px;
+  text-shadow: 2px 2px #DDBEA9;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.project-details-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Wrap elements in smaller screens */
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Stack project elements vertically */
+}
+
+.thumbnail-circle {
+  width: 100px; /* Set the width of the circle, adjust as needed */
+  height: 100px; /* Set the height of the circle, adjust as needed */
+  border-radius: 50%; /* Make the shape a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any overflowing content */
+  margin-right: 15px; /* Add some space between the circle and the link */
+  margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+.thumbnail-image {
+  width: 100%; /* Make the image fill the circle */
+  height: 100%; /* Make the image fill the circle */
+  object-fit: cover; /* Ensure the entire image is visible in the circle */
+  /* Make the image the full background of the circle */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%; /* Keep the image circular */
+}
+
+.project-name {
+  color: white;
+  font-size: 24px; /* Reduce font size for better visibility */
+  margin-top: 10px; /* Add margin between the image and project name */
+}
+
+.subtext {
+  color: #FFE8D6;
+  font-size: 24px;
+}
+
+.text {
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+}
+
+.details-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.details-button-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  background-color: #FFE8D6;
+  padding: 10px 0px 10px 0px;
+  border: 1px solid;
+  border-radius: 40px;
+  color: #CB997E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.details-button-containers:hover {
+  font-size: large;
+}
+
+#github {
+  width: 30px;
+  margin-left: 8px;
+}
+
+#external-link {
+  width: 25px;
+  margin-left: 8px;
+}
+
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+  .project-details {
+    padding-top: 50px;
+  }
+
+  .proj-name {
+    font-size: 50px;
+    line-height: 80px;
+  }
+
+  .project-details-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack project elements vertically */
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .details-button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .details-button-containers {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #d01c76;
+  border-radius: 5px;
+  background-color: #FFC0CB; /* Light pink for the button */
+  color: #CB997E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-button:hover {
+  background-color: #de549e; /* Darker shade of pink on hover */
+  color: #FFE8D6; /* White text on hover */
+}
