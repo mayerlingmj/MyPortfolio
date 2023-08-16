@@ -9,7 +9,7 @@ const ContactPage = () => {
     e.preventDefault()
 
     try {
-      const response = await fetch('https://git.heroku.com/mlj-portfolio.git', {
+      const response = await fetch('http://localhost:4000/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, message })

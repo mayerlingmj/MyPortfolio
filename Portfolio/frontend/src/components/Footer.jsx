@@ -1,6 +1,7 @@
 import React from 'react'
 import LinkedInIcon from '../assets/LinkedIn.png'
 import GitHubIcon from '../assets/GitHub.png'
+import EmailIcon from '../assets/Email.png'
 import './Footer.css'
 
 function Footer() {
@@ -21,6 +22,13 @@ function Footer() {
           href="https://github.com/mayerlingmj"
         >
           <img className="footer-icon" alt="GitHub" src={GitHubIcon} />
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="mailto:josephmayerling@gmail.com"
+        >
+          <img className="footer-icon" alt="Email" src={EmailIcon} />
         </a>
       </div>
     </div>

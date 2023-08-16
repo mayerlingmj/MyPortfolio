@@ -1,10 +1,16 @@
 .page {
   padding: 2rem;
-  background-color: #FFC0CB;
   font-family: 'Jost', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5rem; 
+}
+
+.about-me-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem; 
 }
 
 .profile-pic {
@@ -12,8 +18,7 @@
   height: 250px;
   border-radius: 80%;
   object-fit: cover;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-right: 2rem; 
 }
 
 h1 {
