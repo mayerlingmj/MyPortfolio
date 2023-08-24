@@ -25,8 +25,8 @@ li {
   animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
-.flip4 {
-  animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+.flip6 {
+  animation: flip6 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
 @keyframes flip2 {
@@ -77,7 +77,7 @@ li {
   }
 }
 
-@keyframes flip4 {
+@keyframes flip6 {
   0% {
     margin-top: -360px;
   }

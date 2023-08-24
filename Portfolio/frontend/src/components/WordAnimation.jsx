@@ -7,12 +7,13 @@ function WordAnimation(props) {
       <h4 className="wordCarousel">
         <span>A LITTLE ABOUT ME:</span>
         <div className="animation-div">
-          <ul className="flip4">
+          <ul className="flip6">
             <li>WEB DEVELOPER</li>
             <li>TRAVEL ENTHUSIAST</li>
-            <li>FROM:BROOKLYN NY</li>
-            <li>BOOK LOVER</li>
-            <li>ANIMAL LOVER</li>
+            <li>CODING CONNOISSEUR</li>
+            <li>FROM: BROOKLYN NY</li>
+            <li>ANIMAL & BOOK LOVER</li>
+            <li>CODE WHISPERER</li>
           </ul>
         </div>
       </h4>

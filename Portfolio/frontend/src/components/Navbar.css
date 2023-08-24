@@ -1,14 +1,13 @@
-
 .navbar {
   background-color: #FFC0CB;
-  height: 40px;
+  height: 50px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-family: 'Jost', sans-serif;
   z-index: 100;
 }
@@ -16,24 +15,55 @@
 .navbar-list {
   list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: center; 
   margin: 0;
+  margin-top: 3rem;
   padding: 0;
 }
 
 .navbar-item {
   margin: 0 10px;
+  position: relative; /* Added to accommodate dropdown */
 }
 
 .navbar-item a {
   text-decoration: none;
-  color: #FF69B4; 
-  font-size: 18px;
+  color: #FF69B4;
+  font-size: 24px; /* Increased font size */
+  font-weight: bold; /* Added bold font weight */
   padding: 10px;
   transition: color 0.3s;
 }
 
 .navbar-item a:hover {
-  color: #FF1493; 
+  color: #FF1493;
+}
+
+/* Added styles for dropdown effect */
+
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FFC0CB;
+  border-top: 3px solid #FF1493;
+  width: 100%;
+  top: 60px;
+  left: 0;
+}
+
+.navbar-item:hover .navbar-dropdown {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -1,8 +1,5 @@
 import React from 'react'
 import './ProjectDetails.css'
-import sightwordThumbnail from '../assets/sightword.png'
-import calculatorAppThumbnail from '../assets/calculator.png'
-import studyBuddyThumbnail from '../assets/studybuddy.png'
 
 const ProjectDetails = () => {
   const projects = [
@@ -10,21 +7,28 @@ const ProjectDetails = () => {
       name: 'React Calculator',
       githubLink: 'https://github.com/mayerlingmj/u4_hw_react_calculator',
       deployLink: 'https://calculator-full.surge.sh/',
-      imageSrc: calculatorAppThumbnail,
+      imageSrc: 'https://i.imgur.com/158SGSQ.png',
       backgroundColor: '#FFA07A'
     },
     {
       name: 'Study Buddy',
       githubLink: 'https://github.com/mayerlingmj/Study-Buddy',
       deployLink: 'https://frosty-paper-254.fly.dev/',
-      imageSrc: studyBuddyThumbnail,
+      imageSrc: 'https://i.imgur.com/Jfkqio6.png',
       backgroundColor: '#FFB6C1'
     },
     {
       name: 'Sight Word Memory Game',
       githubLink: 'https://github.com/mayerlingmj/Word-Memory',
       deployLink: 'https://sightwordmj.surge.sh/',
-      imageSrc: sightwordThumbnail,
+      imageSrc: 'https://i.imgur.com/Q0w5hHn.png',
+      backgroundColor: '#FFC0CB'
+    },
+    {
+      name: 'Tic Tac Toe',
+      githubLink: 'https://github.com/mayerlingmj/Tictactoe',
+      deployLink: 'https://tictactoemay.surge.sh/',
+      imageSrc: 'https://i.imgur.com/TMKCJWy.png',
       backgroundColor: '#FFC0CB'
     }
   ]
